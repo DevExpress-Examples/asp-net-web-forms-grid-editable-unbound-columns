@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx](./CS/UnboundColumnForCommenting/Default.aspx) (VB: [Default.aspx.vb](./VB/UnboundColumnForCommenting/Default.aspx.vb))
+* [Default.aspx.cs](./CS/UnboundColumnForCommenting/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/UnboundColumnForCommenting/Default.aspx.vb))
+* [MyComments.cs](./CS/UnboundColumnForCommenting/MyComments.cs) (VB: [MyComments.vb](./VB/UnboundColumnForCommenting/MyComments.vb))
+<!-- default file list end -->
 # An example with an editable unbound column
 
 

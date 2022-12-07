@@ -37,7 +37,7 @@ Namespace UnboundColumnForCommenting
 		End Function
 
 		' Fetch unbound data here
-		Protected Sub ASPxGridView1_CustomUnboundColumnData(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewColumnDataEventArgs)
+		Protected Sub ASPxGridView1_CustomUnboundColumnData(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewColumnDataEventArgs)
 			If e.IsGetData AndAlso e.Column.FieldName = "Comment" Then
 				Dim key As Object = e.GetListSourceFieldValue(e.ListSourceRowIndex, ASPxGridView1.KeyFieldName)
 				e.Value = MyComments.GetComment(key)

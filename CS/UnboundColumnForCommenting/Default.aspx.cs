@@ -35,7 +35,7 @@ namespace UnboundColumnForCommenting {
         }
 
         // Fetch unbound data here
-        protected void ASPxGridView1_CustomUnboundColumnData(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewColumnDataEventArgs e) {
+        protected void ASPxGridView1_CustomUnboundColumnData(object sender, DevExpress.Web.ASPxGridViewColumnDataEventArgs e) {
             if(e.IsGetData && e.Column.FieldName == "Comment") {
                 object key = e.GetListSourceFieldValue(e.ListSourceRowIndex, ASPxGridView1.KeyFieldName);
                 e.Value = MyComments.GetComment(key);

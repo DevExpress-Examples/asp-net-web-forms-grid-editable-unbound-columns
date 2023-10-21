@@ -8,7 +8,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/128532534/)**
 <!-- run online end -->
 
-In this examle a grid contains an unbound column whose values are populated in the [CustomUnboundColumnData](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.CustomUnboundColumnData) event handler. The [RowUpdating](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.RowUpdating) event is handled to save unbound data to a session.
+In this example, a grid contains an unbound column whose values are populated in the [CustomUnboundColumnData](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.CustomUnboundColumnData) event handler. The [RowUpdating](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.RowUpdating) event is handled to save unbound data to a session.
 
 ## Files to Review
 

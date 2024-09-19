@@ -16,12 +16,7 @@
             <Columns>
                 <dx:GridViewDataTextColumn FieldName="Name" ReadOnly="True" />
                 <dx:GridViewDataTextColumn FieldName="Comment" UnboundType="String" />
-                <dx:GridViewCommandColumn >
-                    <EditButton Visible="True" />
-                    <CancelButton Visible="True" />
-                    <UpdateButton Visible="True" />
-                    <ClearFilterButton Visible="True" />
-                </dx:GridViewCommandColumn>
+                <dx:GridViewCommandColumn ShowEditButton="True" ShowCancelButton="True" ShowUpdateButton="True" ShowClearFilterButton="True" />
             </Columns>
         </dx:ASPxGridView>
     </div>

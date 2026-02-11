@@ -15,7 +15,7 @@ In this example, a grid contains an unbound column whose values are populated in
 * [Default.aspx.cs](./CS/UnboundColumnForCommenting/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/UnboundColumnForCommenting/Default.aspx.vb))
 * [MyComments.cs](./CS/UnboundColumnForCommenting/MyComments.cs) (VB: [MyComments.vb](./VB/UnboundColumnForCommenting/MyComments.vb))
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-editable-unbound-columns&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-editable-unbound-columns&~~~was_helpful=no)
 
